@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -160,14 +160,14 @@
 <board>
 <fusionsync huburn="a.cGVyc29uYWw6dWUyYmJlMjc2" projecturn="a.cGVyc29uYWw6dWUyYmJlMjc2IzIwMTkxMTI5MjQzMDExNjI2" f3durn="urn:adsk.wipprod:dm.lineage:TGDn2SdpTay69WcedvgEeQ" pcbguid="7600a109-35f5-4a55-bf58-358f148a698f" lastpulledtime="" lastsyncedchangeguid="7e329978-b2ae-3ee3-e93d-d9b8fa171ed5"/>
 <plain>
-<wire x1="121.9" y1="117.6" x2="-50" y2="117.6" width="0" layer="20"/>
-<wire x1="121.9" y1="117.6" x2="121.7" y2="60.6" width="0" layer="20"/>
-<wire x1="121.7" y1="60.6" x2="82.6" y2="60.5" width="0" layer="20"/>
-<wire x1="82.6" y1="60.5" x2="82.6" y2="-0.1" width="0" layer="20"/>
+<wire x1="121.8" y1="127" x2="-50" y2="127" width="0" layer="20"/>
+<wire x1="121.8" y1="127" x2="121.8" y2="60" width="0" layer="20"/>
+<wire x1="121.8" y1="60" x2="82.6" y2="60" width="0" layer="20"/>
+<wire x1="82.6" y1="60" x2="82.6" y2="-0.1" width="0" layer="20"/>
 <wire x1="82.6" y1="-0.1" x2="-2.6" y2="0" width="0" layer="20"/>
 <wire x1="-2.6" y1="0" x2="-2.6" y2="76.2" width="0" layer="20"/>
-<wire x1="-2.6" y1="76.2" x2="-50.3" y2="76.2" width="0" layer="20"/>
-<wire x1="-50" y1="117.6" x2="-50.3" y2="76.2" width="0" layer="20"/>
+<wire x1="-2.6" y1="76.2" x2="-50" y2="76.2" width="0" layer="20"/>
+<wire x1="-50" y1="127" x2="-50" y2="76.2" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="Connector_Robotech">
@@ -620,41 +620,41 @@ Design rules recommended for Mita laboratry cutting machine</description>
 <attribute name="NAME" x="5.4" y="9.03" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="6.25" y="10.107" size="1.27" layer="27" align="center"/>
 </element>
-<element name="VR1" library="SparkFun-Resistors" package="SLIDER-SMALL" value="10k" x="16.5" y="90.03" smashed="yes" rot="R270">
-<attribute name="NAME" x="21.453" y="90.03" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-11924" x="16.5" y="90.03" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SF_SKU" value="COM-11620" x="16.5" y="90.03" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="21.072" y="90.03" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<element name="VR1" library="SparkFun-Resistors" package="SLIDER-SMALL" value="10k" x="16.5" y="97.53" smashed="yes" rot="R270">
+<attribute name="NAME" x="21.453" y="97.53" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-11924" x="16.5" y="97.53" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SF_SKU" value="COM-11620" x="16.5" y="97.53" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="21.072" y="97.53" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="VR2" library="SparkFun-Resistors" package="SLIDER-SMALL" value="10k" x="-13.05" y="90.03" smashed="yes" rot="R270">
-<attribute name="NAME" x="-8.097" y="90.03" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-11924" x="-13.05" y="90.03" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SF_SKU" value="COM-11620" x="-13.05" y="90.03" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="-8.478" y="90.03" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<element name="VR2" library="SparkFun-Resistors" package="SLIDER-SMALL" value="10k" x="-13.5" y="97.53" smashed="yes" rot="R270">
+<attribute name="NAME" x="-8.547" y="97.53" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-11924" x="-13.5" y="97.53" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SF_SKU" value="COM-11620" x="-13.5" y="97.53" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="-8.928" y="97.53" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="VR3" library="SparkFun-Resistors" package="SLIDER-SMALL" value="10k" x="-43.05" y="97.53" smashed="yes" rot="R270">
-<attribute name="NAME" x="-38.097" y="97.53" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-11924" x="-43.05" y="97.53" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SF_SKU" value="COM-11620" x="-43.05" y="97.53" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="-38.478" y="97.53" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<element name="VR3" library="SparkFun-Resistors" package="SLIDER-SMALL" value="10k" x="-43.5" y="97.53" smashed="yes" rot="R270">
+<attribute name="NAME" x="-38.547" y="97.53" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-11924" x="-43.5" y="97.53" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SF_SKU" value="COM-11620" x="-43.5" y="97.53" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="-38.928" y="97.53" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="VR4" library="SparkFun-Resistors" package="SLIDER-MEDIUM" value="10k" x="55.5" y="85.03" smashed="yes" rot="R270">
-<attribute name="NAME" x="60.453" y="85.03" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-11931" x="55.5" y="85.03" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SF_SKU" value="COM-11621" x="55.5" y="85.03" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="60.072" y="85.03" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<element name="VR4" library="SparkFun-Resistors" package="SLIDER-MEDIUM" value="10k" x="55.5" y="92.53" smashed="yes" rot="R270">
+<attribute name="NAME" x="60.453" y="92.53" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-11931" x="55.5" y="92.53" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SF_SKU" value="COM-11621" x="55.5" y="92.53" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="60.072" y="92.53" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="VR5" library="SparkFun-Resistors" package="SLIDER-MEDIUM" value="10k" x="85.5" y="85.03" smashed="yes" rot="R270">
-<attribute name="NAME" x="90.453" y="85.03" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-11931" x="85.5" y="85.03" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SF_SKU" value="COM-11621" x="85.5" y="85.03" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="90.072" y="85.03" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<element name="VR5" library="SparkFun-Resistors" package="SLIDER-MEDIUM" value="10k" x="85.5" y="92.53" smashed="yes" rot="R270">
+<attribute name="NAME" x="90.453" y="92.53" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-11931" x="85.5" y="92.53" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SF_SKU" value="COM-11621" x="85.5" y="92.53" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="90.072" y="92.53" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="VR6" library="SparkFun-Resistors" package="SLIDER-MEDIUM" value="10k" x="115.5" y="85.03" smashed="yes" rot="R270">
-<attribute name="NAME" x="120.453" y="85.03" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-11931" x="115.5" y="85.03" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SF_SKU" value="COM-11621" x="115.5" y="85.03" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="120.072" y="85.03" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<element name="VR6" library="SparkFun-Resistors" package="SLIDER-MEDIUM" value="10k" x="115.5" y="92.53" smashed="yes" rot="R270">
+<attribute name="NAME" x="120.453" y="92.53" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-11931" x="115.5" y="92.53" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SF_SKU" value="COM-11621" x="115.5" y="92.53" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="120.072" y="92.53" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="CON3" library="Connector_Robotech" package="5251-06-ANORESTRICT" value="MOLEX-5251-06-ANORESTRICT" x="2.9" y="93.4" smashed="yes">
 <attribute name="NAME" x="9.1661" y="97.7439" size="1.016" layer="25" ratio="14" rot="R180"/>
@@ -672,12 +672,12 @@ Design rules recommended for Mita laboratry cutting machine</description>
 <contactref element="CON1" pad="1"/>
 <wire x1="68.5" y1="16.25" x2="68.5" y2="3.75" width="0.4064" layer="16"/>
 <wire x1="68.5" y1="16.25" x2="68.5" y2="18.9" width="0.4064" layer="16"/>
-<wire x1="68.5" y1="18.9" x2="81.1" y2="31.5" width="0.4064" layer="16"/>
-<wire x1="92.2936" y1="78.5936" x2="102.29260625" y2="78.5936" width="0.4064" layer="16"/>
 <wire x1="102.29260625" y1="78.5936" x2="107.95" y2="84.25099375" width="0.4064" layer="16"/>
-<wire x1="81.1" y1="31.5" x2="81.1" y2="67.4" width="0.4064" layer="16"/>
-<wire x1="81.1" y1="67.4" x2="92.2936" y2="78.5936" width="0.4064" layer="16"/>
 <wire x1="107.95" y1="93.2" x2="107.95" y2="84.25099375" width="0.4064" layer="16"/>
+<wire x1="81.2" y1="31.6" x2="81.2" y2="64.2" width="0.4064" layer="16"/>
+<wire x1="81.2" y1="64.2" x2="95.5936" y2="78.5936" width="0.4064" layer="16"/>
+<wire x1="95.5936" y1="78.5936" x2="102.29260625" y2="78.5936" width="0.4064" layer="16"/>
+<wire x1="68.5" y1="18.9" x2="81.2" y2="31.6" width="0.4064" layer="16"/>
 </signal>
 <signal name="+5V">
 <contactref element="S1" pad="1"/>
@@ -752,35 +752,38 @@ Design rules recommended for Mita laboratry cutting machine</description>
 <wire x1="3.5" y1="16.25" x2="3.5" y2="3.75" width="0.4064" layer="16"/>
 <wire x1="18.5" y1="16.25" x2="18.5" y2="3.8" width="0.4064" layer="16"/>
 <wire x1="33.5" y1="46.28" x2="33.5" y2="33.78" width="0.4064" layer="16"/>
-<wire x1="113.5" y1="106.78" x2="111.08" y2="109.2" width="0.4064" layer="16"/>
-<wire x1="85.92" y1="109.2" x2="83.5" y2="106.78" width="0.4064" layer="16"/>
-<wire x1="111.08" y1="109.2" x2="85.92" y2="109.2" width="0.4064" layer="16"/>
-<wire x1="83.5" y1="106.78" x2="80.98" y2="109.3" width="0.4064" layer="16"/>
-<wire x1="56.02" y1="109.3" x2="53.5" y2="106.78" width="0.4064" layer="16"/>
-<wire x1="80.98" y1="109.3" x2="56.02" y2="109.3" width="0.4064" layer="16"/>
-<wire x1="53.5" y1="106.78" x2="51.18" y2="109.1" width="0.4064" layer="16"/>
-<wire x1="16.82" y1="109.1" x2="14.5" y2="106.78" width="0.4064" layer="16"/>
-<wire x1="51.18" y1="109.1" x2="16.82" y2="109.1" width="0.4064" layer="16"/>
-<wire x1="14.5" y1="106.78" x2="12.92" y2="106.78" width="0.4064" layer="16"/>
-<wire x1="12.92" y1="106.78" x2="10.6" y2="109.1" width="0.4064" layer="16"/>
-<wire x1="10.6" y1="109.1" x2="-12.73" y2="109.1" width="0.4064" layer="16"/>
-<wire x1="-12.73" y1="109.1" x2="-15.05" y2="106.78" width="0.4064" layer="16"/>
-<wire x1="-15.05" y1="106.78" x2="-17.47" y2="109.2" width="0.4064" layer="16"/>
-<wire x1="-42.63" y1="109.2" x2="-45.05" y2="114.28" width="0.4064" layer="16"/>
-<wire x1="-17.47" y1="109.2" x2="-42.63" y2="109.2" width="0.4064" layer="16"/>
-<wire x1="95.25" y1="93.2" x2="99.05" y2="97" width="0.4064" layer="16"/>
-<wire x1="99.05" y1="97" x2="113.6" y2="97" width="0.4064" layer="16"/>
-<wire x1="113.6" y1="97" x2="121.4" y2="104.8" width="0.4064" layer="16"/>
-<wire x1="121.4" y1="104.8" x2="121.4" y2="107.8" width="0.4064" layer="16"/>
-<wire x1="121.4" y1="107.8" x2="120.2" y2="109" width="0.4064" layer="16"/>
-<wire x1="115.72" y1="109" x2="113.5" y2="106.78" width="0.4064" layer="16"/>
-<wire x1="120.2" y1="109" x2="115.72" y2="109" width="0.4064" layer="16"/>
-<wire x1="-45.05" y1="114.28" x2="-47.9" y2="103.93" width="0.4064" layer="16"/>
-<wire x1="-47.9" y1="103.93" x2="-47.9" y2="68" width="0.4064" layer="16"/>
-<wire x1="-47.9" y1="68" x2="-43.8" y2="63.9" width="0.4064" layer="16"/>
-<wire x1="-43.8" y1="63.9" x2="-1.2" y2="63.9" width="0.4064" layer="16"/>
-<wire x1="-1.2" y1="63.9" x2="3.5" y2="59.2" width="0.4064" layer="16"/>
-<wire x1="3.5" y1="59.2" x2="3.5" y2="46.28" width="0.4064" layer="16"/>
+<wire x1="-45.5" y1="114.28" x2="-42.2" y2="117.58" width="0.4064" layer="16"/>
+<wire x1="-42.2" y1="117.58" x2="-42.2" y2="117.6" width="0.4064" layer="16"/>
+<wire x1="-42.2" y1="117.6" x2="-18.82" y2="117.6" width="0.4064" layer="16"/>
+<wire x1="-18.82" y1="117.6" x2="-15.5" y2="114.28" width="0.4064" layer="16"/>
+<wire x1="-15.5" y1="114.28" x2="-11.98" y2="117.8" width="0.4064" layer="16"/>
+<wire x1="10.98" y1="117.8" x2="14.5" y2="114.28" width="0.4064" layer="16"/>
+<wire x1="-11.98" y1="117.8" x2="10.98" y2="117.8" width="0.4064" layer="16"/>
+<wire x1="14.5" y1="114.28" x2="17.92" y2="117.7" width="0.4064" layer="16"/>
+<wire x1="50.08" y1="117.7" x2="53.5" y2="114.28" width="0.4064" layer="16"/>
+<wire x1="17.92" y1="117.7" x2="50.08" y2="117.7" width="0.4064" layer="16"/>
+<wire x1="53.5" y1="114.28" x2="56.92" y2="117.7" width="0.4064" layer="16"/>
+<wire x1="80.08" y1="117.7" x2="83.5" y2="114.28" width="0.4064" layer="16"/>
+<wire x1="56.92" y1="117.7" x2="80.08" y2="117.7" width="0.4064" layer="16"/>
+<wire x1="83.5" y1="114.28" x2="86.92" y2="117.7" width="0.4064" layer="16"/>
+<wire x1="110.08" y1="117.7" x2="113.5" y2="114.28" width="0.4064" layer="16"/>
+<wire x1="86.92" y1="117.7" x2="110.08" y2="117.7" width="0.4064" layer="16"/>
+<wire x1="3.5" y1="73.7" x2="-0.9" y2="78.1" width="0.4064" layer="16"/>
+<wire x1="-0.9" y1="78.1" x2="-45.5" y2="78.1" width="0.4064" layer="16"/>
+<wire x1="-45.5" y1="78.1" x2="-48.3282" y2="80.9282" width="0.4064" layer="16"/>
+<wire x1="-48.3282" y1="111.4518" x2="-45.5" y2="114.28" width="0.4064" layer="16"/>
+<wire x1="-48.3282" y1="80.9282" x2="-48.3282" y2="111.4518" width="0.4064" layer="16"/>
+<wire x1="3.5" y1="46.28" x2="3.5" y2="73.7" width="0.4064" layer="16"/>
+<wire x1="113.5" y1="114.28" x2="116.42" y2="117.2" width="0.4064" layer="16"/>
+<wire x1="116.42" y1="117.2" x2="118.7" y2="117.2" width="0.4064" layer="16"/>
+<wire x1="118.7" y1="117.2" x2="120.2" y2="115.7" width="0.4064" layer="16"/>
+<wire x1="120.2" y1="107.6" x2="120.2" y2="115.7" width="0.4064" layer="16"/>
+<wire x1="95.25" y1="93.2" x2="95.25" y2="98.05" width="0.4064" layer="16"/>
+<wire x1="95.25" y1="98.05" x2="98.6" y2="101.4" width="0.4064" layer="16"/>
+<wire x1="98.6" y1="101.4" x2="113.6" y2="101.4" width="0.4064" layer="16"/>
+<wire x1="113.6" y1="101.4" x2="113.7" y2="101.3" width="0.4064" layer="16"/>
+<wire x1="113.7" y1="101.3" x2="113.9" y2="101.3" width="0.4064" layer="16"/>
+<wire x1="113.9" y1="101.3" x2="120.2" y2="107.6" width="0.4064" layer="16"/>
 </signal>
 <signal name="OUT2">
 <contactref element="S2" pad="4"/>
@@ -804,12 +807,11 @@ Design rules recommended for Mita laboratry cutting machine</description>
 <wire x1="38.5" y1="16.25" x2="47.05" y2="24.8" width="0.4064" layer="16"/>
 <wire x1="47.05" y1="24.8" x2="70" y2="24.8" width="0.4064" layer="16"/>
 <wire x1="77.3" y1="32.1" x2="70" y2="24.8" width="0.4064" layer="16"/>
-<wire x1="102.87805" y1="93.2" x2="102.87" y2="93.2" width="0.4064" layer="16"/>
-<wire x1="102.87" y1="93.2" x2="102.87" y2="86.57" width="0.4064" layer="16"/>
 <wire x1="102.87" y1="86.57" x2="98.7" y2="82.4" width="0.4064" layer="16"/>
 <wire x1="98.7" y1="82.4" x2="89.4" y2="82.4" width="0.4064" layer="16"/>
 <wire x1="89.4" y1="82.4" x2="77.3" y2="70.3" width="0.4064" layer="16"/>
 <wire x1="77.3" y1="70.3" x2="77.3" y2="32.1" width="0.4064" layer="16"/>
+<wire x1="102.87" y1="93.2" x2="102.87" y2="86.57" width="0.4064" layer="16"/>
 </signal>
 <signal name="OUT4">
 <contactref element="S4" pad="4"/>
@@ -842,7 +844,6 @@ Design rules recommended for Mita laboratry cutting machine</description>
 <wire x1="8.5" y1="16.25" x2="20.95" y2="28.7" width="0.4064" layer="16"/>
 <wire x1="69.3" y1="28.7" x2="73.6" y2="33" width="0.4064" layer="16"/>
 <wire x1="20.95" y1="28.7" x2="69.3" y2="28.7" width="0.4064" layer="16"/>
-<wire x1="97.79" y1="93.2" x2="97.6" y2="93.01" width="0.4064" layer="16"/>
 <wire x1="97.79" y1="93.2" x2="97.79" y2="89.70805" width="0.4064" layer="16"/>
 <wire x1="97.79" y1="89.70805" x2="95.37075" y2="87.2888" width="0.4064" layer="16"/>
 <wire x1="87.4888" y1="87.2888" x2="95.37075" y2="87.2888" width="0.4064" layer="16"/>
@@ -886,54 +887,41 @@ Design rules recommended for Mita laboratry cutting machine</description>
 <signal name="VOLUME_OUT1">
 <contactref element="CON3" pad="4"/>
 <contactref element="VR1" pad="WIPER"/>
-<wire x1="18.5" y1="106.78" x2="12.62" y2="100.9" width="0.4064" layer="16"/>
-<wire x1="12.62" y1="100.9" x2="9" y2="100.9" width="0.4064" layer="16"/>
-<wire x1="9" y1="100.9" x2="1.63" y2="93.53" width="0.4064" layer="16"/>
-<wire x1="1.63" y1="93.53" x2="1.63" y2="93.4" width="0.4064" layer="16"/>
+<wire x1="1.63" y1="93.4" x2="1.63" y2="97.41" width="0.4064" layer="16"/>
+<wire x1="1.63" y1="97.41" x2="18.5" y2="114.28" width="0.4064" layer="16"/>
 </signal>
 <signal name="VOLUME_OUT2">
 <contactref element="CON3" pad="5"/>
 <contactref element="VR2" pad="WIPER"/>
-<wire x1="-11.05" y1="106.78" x2="-0.91" y2="96.64" width="0.4064" layer="16"/>
-<wire x1="-0.91" y1="96.64" x2="-0.91" y2="93.4" width="0.4064" layer="16"/>
+<wire x1="-0.91" y1="93.4" x2="-0.91" y2="103.69" width="0.4064" layer="16"/>
+<wire x1="-0.91" y1="103.69" x2="-11.5" y2="114.28" width="0.4064" layer="16"/>
 </signal>
 <signal name="VOLUME_OUT3">
 <contactref element="CON3" pad="6"/>
 <contactref element="VR3" pad="WIPER"/>
-<wire x1="-41.05" y1="114.28" x2="-27.67" y2="93.4" width="0.4064" layer="16"/>
-<wire x1="-27.67" y1="93.4" x2="-3.45" y2="93.4" width="0.4064" layer="16"/>
+<wire x1="-41.5" y1="114.28" x2="-20.62" y2="93.4" width="0.4064" layer="16"/>
+<wire x1="-20.62" y1="93.4" x2="-3.45" y2="93.4" width="0.4064" layer="16"/>
 </signal>
 <signal name="VOLUME_OUT4">
 <contactref element="CON3" pad="3"/>
 <contactref element="VR4" pad="WIPER"/>
-<wire x1="4.17" y1="93.4" x2="10.27" y2="99.5" width="0.4064" layer="16"/>
-<wire x1="54.12" y1="103.4" x2="57.5" y2="106.78" width="0.4064" layer="16"/>
-<wire x1="10.27" y1="99.5" x2="13.4" y2="99.5" width="0.4064" layer="16"/>
-<wire x1="13.4" y1="99.5" x2="17.3" y2="103.4" width="0.4064" layer="16"/>
-<wire x1="17.3" y1="103.4" x2="54.12" y2="103.4" width="0.4064" layer="16"/>
+<wire x1="4.17" y1="93.4" x2="19.77" y2="109" width="0.4064" layer="16"/>
+<wire x1="52.22" y1="109" x2="57.5" y2="114.28" width="0.4064" layer="16"/>
+<wire x1="19.77" y1="109" x2="52.22" y2="109" width="0.4064" layer="16"/>
 </signal>
 <signal name="VOLUME_OUT5">
 <contactref element="CON3" pad="2"/>
 <contactref element="VR5" pad="WIPER"/>
-<wire x1="6.71" y1="93.4" x2="11" y2="97.69" width="0.4064" layer="16"/>
-<wire x1="11" y1="97.69" x2="11" y2="97.9" width="0.4064" layer="16"/>
-<wire x1="11" y1="97.9" x2="16.4" y2="97.9" width="0.4064" layer="16"/>
-<wire x1="16.4" y1="97.9" x2="18.9" y2="100.4" width="0.4064" layer="16"/>
-<wire x1="18.9" y1="100.4" x2="18.9" y2="100.7" width="0.4064" layer="16"/>
-<wire x1="18.9" y1="100.7" x2="19.5" y2="101.3" width="0.4064" layer="16"/>
-<wire x1="64.1" y1="101.3" x2="66.6" y2="103.8" width="0.4064" layer="16"/>
-<wire x1="84.52" y1="103.8" x2="87.5" y2="106.78" width="0.4064" layer="16"/>
-<wire x1="19.5" y1="101.3" x2="64.1" y2="101.3" width="0.4064" layer="16"/>
-<wire x1="66.6" y1="103.8" x2="84.52" y2="103.8" width="0.4064" layer="16"/>
+<wire x1="6.71" y1="93.4" x2="20.01" y2="106.7" width="0.4064" layer="16"/>
+<wire x1="79.92" y1="106.7" x2="87.5" y2="114.28" width="0.4064" layer="16"/>
+<wire x1="20.01" y1="106.7" x2="79.92" y2="106.7" width="0.4064" layer="16"/>
 </signal>
 <signal name="VOLUME_OUT6">
 <contactref element="CON3" pad="1"/>
 <contactref element="VR6" pad="WIPER"/>
-<wire x1="117.5" y1="106.78" x2="109.72" y2="99" width="0.4064" layer="16"/>
-<wire x1="21.9" y1="99" x2="109.72" y2="99" width="0.4064" layer="16"/>
-<wire x1="9.25" y1="93.4" x2="12.05" y2="96.2" width="0.4064" layer="16"/>
-<wire x1="19.1" y1="96.2" x2="21.9" y2="99" width="0.4064" layer="16"/>
-<wire x1="12.05" y1="96.2" x2="19.1" y2="96.2" width="0.4064" layer="16"/>
+<wire x1="9.25" y1="93.4" x2="20.15" y2="104.3" width="0.4064" layer="16"/>
+<wire x1="107.52" y1="104.3" x2="117.5" y2="114.28" width="0.4064" layer="16"/>
+<wire x1="20.15" y1="104.3" x2="107.52" y2="104.3" width="0.4064" layer="16"/>
 </signal>
 <signal name="GND">
 <contactref element="CON2" pad="6"/>
@@ -944,34 +932,18 @@ Design rules recommended for Mita laboratry cutting machine</description>
 <contactref element="VR6" pad="BOTTOM"/>
 <contactref element="VR1" pad="BOTTOM"/>
 <polygon width="0.254" layer="16">
-<vertex x="-50" y="117.7"/>
+<vertex x="-50" y="127"/>
 <vertex x="-50" y="76.2"/>
 <vertex x="-2.6" y="76.2"/>
 <vertex x="-2.6" y="0"/>
 <vertex x="82.6" y="0"/>
-<vertex x="82.6" y="60.4"/>
-<vertex x="121.8" y="60.4"/>
-<vertex x="121.8" y="117.7"/>
+<vertex x="82.6" y="60"/>
+<vertex x="121.8" y="60"/>
+<vertex x="121.8" y="127"/>
 </polygon>
-<wire x1="30.95" y1="93" x2="14.5" y2="76.55" width="0.4064" layer="16"/>
-<wire x1="14.5" y1="76.55" x2="14.5" y2="73.28" width="0.4064" layer="16"/>
-<wire x1="14.5" y1="73.28" x2="-15.05" y2="73.28" width="0.4064" layer="16"/>
-<wire x1="-15.05" y1="73.28" x2="-45.05" y2="80.78" width="0.4064" layer="16"/>
-<wire x1="83.8" y1="63.28" x2="83.5" y2="63.28" width="0.4064" layer="16"/>
-<wire x1="41.63075" y1="95.0112" x2="42.3672" y2="94.27475" width="0.4064" layer="16"/>
-<wire x1="42.3672" y1="74.4128" x2="53.5" y2="63.28" width="0.4064" layer="16"/>
-<wire x1="42.3672" y1="94.27475" x2="42.3672" y2="74.4128" width="0.4064" layer="16"/>
-<wire x1="30.95" y1="93" x2="30.95805" y2="93" width="0.4064" layer="16"/>
-<wire x1="30.95805" y1="93" x2="32.96925" y2="95.0112" width="0.4064" layer="16"/>
-<wire x1="32.96925" y1="95.0112" x2="41.63075" y2="95.0112" width="0.4064" layer="16"/>
-<wire x1="67.0468" y1="33.1780625" x2="67.8980625" y2="32.3268" width="0.4064" layer="16"/>
-<wire x1="67.8980625" y1="32.3268" x2="69.1019375" y2="32.3268" width="0.4064" layer="16"/>
-<wire x1="53.5" y1="63.28" x2="67.0468" y2="49.7332" width="0.4064" layer="16"/>
-<wire x1="67.0468" y1="49.7332" x2="67.0468" y2="33.1780625" width="0.4064" layer="16"/>
-<wire x1="69.1019375" y1="32.3268" x2="71.8314" y2="35.0562625" width="0.4064" layer="16"/>
-<wire x1="71.8314" y1="35.0562625" x2="71.8314" y2="51.3114" width="0.4064" layer="16"/>
-<wire x1="83.8" y1="63.28" x2="113.5" y2="63.28" width="0" layer="19" extent="16-16"/>
-<wire x1="71.8314" y1="51.3114" x2="83.5" y2="63.28" width="0" layer="19" extent="16-16"/>
+<wire x1="14.5" y1="80.78" x2="-15.5" y2="80.78" width="0.4064" layer="16"/>
+<wire x1="-15.5" y1="80.78" x2="-45.5" y2="80.78" width="0.4064" layer="16"/>
+<wire x1="14.5" y1="80.78" x2="18.73" y2="80.78" width="0.4064" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
