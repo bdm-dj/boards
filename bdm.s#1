@@ -757,44 +757,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="Document_Robotech">
-<description>&lt;h3&gt;RoboTech EAGLE Library&lt;/h3&gt;
-Supply symbol library&lt;br&gt;
-$Rev: 16465 $ 
-&lt;p&gt;
-Since 2008&lt;br&gt;
-by RoboTech&lt;br&gt;
-Takuo Sawada&lt;br&gt;
-&lt;/p&gt;</description>
-<packages>
-<package name="HOLE_3.2">
-<hole x="0" y="0" drill="3.2"/>
-<circle x="0" y="0" radius="4" width="0.127" layer="51"/>
-<circle x="0" y="0" radius="3" width="0.127" layer="52"/>
-</package>
-</packages>
-<symbols>
-<symbol name="NAME&amp;VALUE">
-<text x="0" y="1.27" size="2.54" layer="95">&gt;NAME</text>
-<text x="0" y="-3.81" size="2.54" layer="96">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="HOLE_3.2" prefix="HOLE">
-<description>&lt;b&gt;Robotech&lt;br&gt;hole diameter 3.2mm&lt;br&gt;tDoc  washer(diameter 8mm)&lt;br&gt;bDoc spacer(diameter 6mm)</description>
-<gates>
-<gate name="G$1" symbol="NAME&amp;VALUE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="HOLE_3.2">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -848,12 +810,6 @@ Takuo Sawada&lt;br&gt;
 <part name="SUPPLY5" library="Supply_Robotech" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="Supply_Robotech" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="Supply_Robotech" deviceset="GND" device=""/>
-<part name="HOLE1" library="Document_Robotech" deviceset="HOLE_3.2" device=""/>
-<part name="HOLE2" library="Document_Robotech" deviceset="HOLE_3.2" device=""/>
-<part name="HOLE3" library="Document_Robotech" deviceset="HOLE_3.2" device=""/>
-<part name="HOLE4" library="Document_Robotech" deviceset="HOLE_3.2" device=""/>
-<part name="HOLE5" library="Document_Robotech" deviceset="HOLE_3.2" device=""/>
-<part name="HOLE6" library="Document_Robotech" deviceset="HOLE_3.2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1072,30 +1028,6 @@ Takuo Sawada&lt;br&gt;
 </instance>
 <instance part="SUPPLY7" gate="GND" x="109.22" y="68.58" smashed="yes">
 <attribute name="VALUE" x="107.315" y="65.405" size="1.778" layer="96"/>
-</instance>
-<instance part="HOLE1" gate="G$1" x="139.7" y="111.76" smashed="yes">
-<attribute name="NAME" x="139.7" y="113.03" size="2.54" layer="95"/>
-<attribute name="VALUE" x="139.7" y="107.95" size="2.54" layer="96"/>
-</instance>
-<instance part="HOLE2" gate="G$1" x="160.02" y="109.22" smashed="yes">
-<attribute name="NAME" x="160.02" y="110.49" size="2.54" layer="95"/>
-<attribute name="VALUE" x="160.02" y="105.41" size="2.54" layer="96"/>
-</instance>
-<instance part="HOLE3" gate="G$1" x="185.42" y="111.76" smashed="yes">
-<attribute name="NAME" x="185.42" y="113.03" size="2.54" layer="95"/>
-<attribute name="VALUE" x="185.42" y="107.95" size="2.54" layer="96"/>
-</instance>
-<instance part="HOLE4" gate="G$1" x="205.74" y="111.76" smashed="yes">
-<attribute name="NAME" x="205.74" y="113.03" size="2.54" layer="95"/>
-<attribute name="VALUE" x="205.74" y="107.95" size="2.54" layer="96"/>
-</instance>
-<instance part="HOLE5" gate="G$1" x="223.52" y="111.76" smashed="yes">
-<attribute name="NAME" x="223.52" y="113.03" size="2.54" layer="95"/>
-<attribute name="VALUE" x="223.52" y="107.95" size="2.54" layer="96"/>
-</instance>
-<instance part="HOLE6" gate="G$1" x="241.3" y="111.76" smashed="yes">
-<attribute name="NAME" x="241.3" y="113.03" size="2.54" layer="95"/>
-<attribute name="VALUE" x="241.3" y="107.95" size="2.54" layer="96"/>
 </instance>
 </instances>
 <busses>

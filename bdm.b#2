@@ -334,23 +334,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
-<library name="Document_Robotech">
-<description>&lt;h3&gt;RoboTech EAGLE Library&lt;/h3&gt;
-Supply symbol library&lt;br&gt;
-$Rev: 16465 $ 
-&lt;p&gt;
-Since 2008&lt;br&gt;
-by RoboTech&lt;br&gt;
-Takuo Sawada&lt;br&gt;
-&lt;/p&gt;</description>
-<packages>
-<package name="HOLE_3.2">
-<hole x="0" y="0" drill="3.2"/>
-<circle x="0" y="0" radius="4" width="0.127" layer="51"/>
-<circle x="0" y="0" radius="3" width="0.127" layer="52"/>
-</package>
-</packages>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -681,12 +664,6 @@ Design rules recommended for Mita laboratry cutting machine</description>
 <attribute name="NAME" x="109.0661" y="89.5439" size="1.016" layer="25" ratio="14" rot="R180"/>
 <attribute name="VALUE" x="93.6259" y="90.0519" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="HOLE1" library="Document_Robotech" package="HOLE_3.2" value="HOLE_3.2" x="-40" y="72" smashed="yes"/>
-<element name="HOLE2" library="Document_Robotech" package="HOLE_3.2" value="HOLE_3.2" x="77" y="6" smashed="yes"/>
-<element name="HOLE3" library="Document_Robotech" package="HOLE_3.2" value="HOLE_3.2" x="14" y="65" smashed="yes"/>
-<element name="HOLE4" library="Document_Robotech" package="HOLE_3.2" value="HOLE_3.2" x="-28" y="111" smashed="yes"/>
-<element name="HOLE5" library="Document_Robotech" package="HOLE_3.2" value="HOLE_3.2" x="100" y="72" smashed="yes"/>
-<element name="HOLE6" library="Document_Robotech" package="HOLE_3.2" value="HOLE_3.2" x="100" y="112" smashed="yes"/>
 </elements>
 <signals>
 <signal name="OUT1">
